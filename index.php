@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Butter Factory</title>
+        <link rel="icon" type="image/x-icon" href="img/title_icon.ico">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <!-- Box Icons -->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Urbanist:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header>
+            <a href="#" class="logo">The Butter Factory</a>
+
+            <ul class="navlist">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#review">Reviews</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <a href="#"><i class='bx bxs-user'></i></a>
+                <!--<a href="#"><i class='bx bx-cart'></i></a>-->
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </header>
+
+        <!-- HOME SECTION -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1>Enjoy our delicious <br> <span>flavoured butters</span></h1>
+                <a href="#products" class="btn">Explore Products <i class="bx bxs-right-arrow"></i></a>
+                <!--<a href="#" class="btn2">Order Now</a>-->
+            </div>
+
+            <div class="home-img">
+                <img src="img/home-img.png" alt="">
+            </div>
+
+        </section>
+
+        <!-- PRODUCTS SECTION -->
+
+        <section class="products" id="products">
+            <div class="middle-text">
+                <h2>Our Products</h2>
+               <!-- <h4>Here is a list of our products</h4> -->
+            </div>
+
+            <!-- Product 1 -->
+            <div class="shop-content">
+                <div class="row">
+                    <img src="img/garlic_home.png">
+                    <h3>Garlic Herb Butter</h3>
+                    <p>This one is THE classic. You can spread it on a piping hot naan or use it to make yourself a delicious garlic bread.</p>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>BDT 150.00</h6>
+                        </div>
+                        <div class="s-btnn">
+                            <a href="order/place_order.php">Order now</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                       <!-- <a href="#"><i class="bx bx-heart"></i></a>-->
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="row">
+                    <img src="img/cheese_home.png">
+                    <h3>Cheesy Delight Butter</h3>
+                    <p>Cheese makes everything taste better! But who knew that putting 
+                    it on butter could create such an insanely delightful combo!</p>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>BDT 150.00</h6>
+                        </div>
+                        <div class="s-btnn">
+                            <a href="order/place_order.php">Order now</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                      <!--  <a href="#"><i class="bx bx-heart"></i></a>-->
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="row">
+                    <img src="img/naga_home.png">
+                    <h3>Naga Butter</h3>
+                    <p>Hello Naga lovers! This one’s for you! You will get an insane zing on 
+                    your tastebuds like you have never experienced before.</p>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>BDT 150.00</h6>
+                        </div>
+                        <div class="s-btnn">
+                            <a href="order/place_order.php">Order now</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                      <!--  <a href="#"><i class="bx bx-heart"></i></a>-->
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="row">
+                    <img src="img/chili_home.png">
+                    <h3>Chili Oil Butter</h3>
+                    <p>Take the taste of your momos to a whole other level with our 
+                    chili oil butter which brings together a sensational mix of spices. </p>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>BDT 150.00</h6>
+                        </div>
+                        <div class="s-btnn">
+                            <a href="order/place_order.php">Order now</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                      <!--  <a href="#"><i class="bx bx-heart"></i></a>-->
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="row">
+                    <img src="img/chocolate_home.png">
+                    <h3>Chocolate Butter</h3>
+                    <p>What would happen if a Dairy Milk bar and butter had a baby? 
+                    The result would be a delightful complement for sandwiches!</p>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>BDT 150.00</h6>
+                        </div>
+                        <div class="s-btnn">
+                            <a href="order/place_order.php">Order now</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                     <!--   <a href="#"><i class="bx bx-heart"></i></a>-->
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="row">
+                    <img src="img/caramel_home.png">
+                    <h3>Caramel Butter</h3>
+                    <p>For those of you with a sweet tooth, this is a must-try. 
+                    Combine the richness of caramel with the creaminess of butter.</p>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>BDT 150.00</h6>
+                        </div>
+                        <div class="s-btnn">
+                            <a href="order/place_order.php">Order now</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                     <!--   <a href="#"><i class="bx bx-heart"></i></a>-->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- REVIEW SECTION -->
+        <section class="review" id="review">
+            <div class="middle-text">
+                <h2>Our Customers</h2>
+                <!--<h2>Customer Reviews on Our Butter</h2>-->
+            </div>
+
+            <div class="review-content">
+                <div class="box">
+                    <p>Tried the garlic butter! Too good. Rich aroma and addictive taste. Delicious!👌🏼</p>
+                    <div class="in-box">
+                        <div class="bx-img">
+                            <img src="img/r1.png">
+                        </div>
+                        <div class="bxx-text">
+                            <h4>Zahid Rahman</h4>
+                            <h5>Food Photographer</h5>
+                            <div class="ratings">
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>The butter they are selling is just fantastic.All my 
+                    family members loved it. Highly recommended!</p>
+                    <div class="in-box">
+                        <div class="bx-img">
+                            <img src="img/r2.png">
+                        </div>
+                        <div class="bxx-text">
+                            <h4>SK Abeer Hasan</h4>
+                            <h5>Facebook Customer</h5>
+                            <div class="ratings">
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>আমি ওদের সব ফ্লেভার গুলো ট্রাই করেছি। সবগুলোরই অনেক অসাধারণ স্বাদ ছিল।  
+                    শেষ হলে অবশই আবার নিবো।</p>
+                    <div class="in-box">
+                        <div class="bx-img">
+                            <img src="img/r3.png">
+                        </div>
+                        <div class="bxx-text">
+                            <h4>Hasena Parven</h4>
+                            <h5>Facebook Customer</h5>
+                            <div class="ratings">
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                                <a href="#"><i class="bx bxs-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/about.png">
+            </div>
+
+            <div class="about-text">
+                <h2>A small family venture <br> goes a long way</h2>
+                <p>The Butter Factory is the pioneer of flavoured butter in Bangladesh! 
+                    We are a private butter manufacturing company headquartered in Dhaka.
+                    Currently, we only sell our products online but plan to move into retail sales soon.
+                <br><br>
+                Our company started as a small family venture encompassing six exotic flavours of butter.
+                Our mission was to introduce a unique food product into the Bangladeshi market which can 
+                complement every meal for the average Bengali.<th></th>
+                
+                </p>
+                <!--<a href="#" class="btn">Learn More<i class="bx bxs-right-arrow"></i></a>-->
+            </div>
+        </section>
+
+        <!-- DETAILS SECTION -->
+
+        <section class="container">
+            <div class="container-box">
+                <img src="img/c1.png">
+                <h3>Open 24 Hours</h3>
+                <a href="#">Order Online</a>
+            </div>
+            <div class="container-box">
+                <img src="img/c2.png">
+                <h3>All Over Dhaka City</h3>
+                <a href="#">Delivery in 3-5 days</a>
+            </div>
+            <div class="container-box">
+                <img src="img/c3.png">
+                <h3>01869701506</h3>
+                <a href="#">Contact Us</a>
+            </div>
+        </section>
+
+        <!-- CONTACTS SECTION -->
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <div class="contact-img">
+                    <div class="c-one">
+                        <img src="img/r1" alt="">
+                    </div>
+                    <div class="c-one">
+                        <img src="img/r2" alt="">
+                    </div>
+                </div>
+                <div class="contact-text">
+                    <h2>Contact Us</h2>
+                    <p>Follow us on Facebook and Instagram to keep updated with our current offers.
+                    <br> Stay connected on LinkedIn to learn about our journey and our new projects.
+                    </p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/thebutterfactorybd/" class="clr"><i class="bx bxl-instagram-alt"></i></a>
+                        <a href="https://www.facebook.com/thebutterfactorybd"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/the-butter-factory-bd/about/"><i class="bx bxl-linkedin-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="main-d">
+                        <a href="#"><i class="bx bxs-location-plus"></i>Gulshan, Dhaka</a>
+                    </div>
+                    <div class="main-d">
+                        <a href="#"><i class="bx bxs-envelope"></i>thebutterfactorybd@gmail.com</a>
+                    </div>
+                    <div class="main-d">
+                        <a href="#"><i class="bx bxs-phone"></i>+8801869701506</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCROLL TOP SECTION -->
+        <a href="#" class="scroll">
+            <i class="bx bx-up-arrow-alt"></i>
+        </a>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- Link to JS -->
+        <script src="js/script.js"></script>
+        
+    </body>
+</html>
