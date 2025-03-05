@@ -1,0 +1,163 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Jobs - The Butter Factory
+  </title>
+  <link rel="icon" type="image/x-icon" href="../img/title_icon.ico">
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            transition: background-color 0.3s;
+        }
+        .navbar.scrolled {
+            background-color: #1a1a1a;
+        }
+  </style>
+  <script>
+   document.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+  </script>
+ </head>
+ <body class="bg-black text-gray-200">
+  <nav class="navbar bg-black p-4 fixed w-full top-0 z-10">
+   <div class="container mx-auto flex justify-between items-center">
+    <div class="text-2xl font-bold text-yellow" style = "font-family: 'Courgette', cursive;">
+     The Butter Factory
+    </div>
+    <ul class="flex space-x-6">
+     <li>
+      <a class="text-gray-300 hover:text-white" href="../index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a class="text-gray-300 hover:text-white" href="../index.html #about">
+       About
+      </a>
+     </li>
+     <li>
+      <a class="text-gray-300 hover:text-white" href="../index.html #products">
+       Products
+      </a>
+     </li>
+     <li>
+      <a class="text-gray-300 hover:text-white" href="careers.html">
+       Careers
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <div class="container mx-auto p-10 mt-20">
+   <div class="bg-gray-800 rounded-lg shadow-lg p-10">
+    <div class="flex items-center mb-6">
+     <img alt="Company logo placeholder" class="w-20 h-20 rounded-full mr-4" height="200" src="../img/about.png" width="100"/>
+     <div>
+      <h1 class="text-3xl font-bold">
+       Operations Assistant
+      </h1>
+      <p class="text-gray-400">
+       Job ID 2500032
+      </p>
+     </div>
+    </div>
+    <div class="mb-6">
+     <h2 class="text-xl font-semibold mb-2">
+      Job Description
+     </h2>
+     <p class="text-gray-300">
+        As an Operations Assistant, you will play a key role in ensuring that our products are prepared and delivered with precision and care. You will be working under the Operations Manager to ensure orders are fulfilled both online and for retail.
+     </p>
+    </div>
+    <div class="mb-6">
+     <h2 class="text-xl font-semibold mb-2">
+      Responsibilities
+     </h2>
+     <ul class="list-disc list-inside text-gray-300">
+      <li>
+        Operating tools and machineries in full packing station.
+      </li>
+      <li>
+        Preparing packages for delivery based on order sheet.
+      </li>
+      <li>
+        Maintaining accurate records of inventory in the system.
+      </li>
+      <li>
+        Coordinating with delivery partner to ensure order ful�illment.
+      </li>
+     </ul>
+    </div>
+    <div class="mb-6">
+     <h2 class="text-xl font-semibold mb-2">
+      Requirements
+     </h2>
+     <ul class="list-disc list-inside text-gray-300">
+      <li>
+        Strong organizational skills to manage production schedules and order sheets.
+      </li>
+      <li>
+        Basic computer skills to update records and use inventory systems.
+      </li>
+      <li>
+        Prior experience in packaging or inventory management (preferred but not required).
+      </li>
+     </ul>
+    </div>
+    <div class="mb-6">
+     <h2 class="text-xl font-semibold mb-2">
+      Benefits
+     </h2>
+     <ul class="list-disc list-inside text-gray-300">
+      <li>
+       <b>BDT 10,000</b> salary
+      </li>
+      <li>
+        1 annual festival bonus
+      </li>
+      <li>
+        Travel and mobile allowances as per company policy.
+      </li>
+     </ul>
+    </div>
+    <div class="flex justify-between items-center">
+     <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <a target="_blank" href="https://forms.gle/pSgSmkkQprnsXSqt6">Apply Now</a>
+     </button>
+     <div class="text-gray-400">
+      <i class="fas fa-map-marker-alt">
+      </i>
+      Dhaka
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer class="bg-gray-800 p-6 mt-10">
+   <div class="container mx-auto text-center">
+    <p class="text-gray-400">
+     &copy; The Butter Corporation
+    </p>
+    <p class="text-gray-400">
+     Gulshan, Dhaka, Bangladesh
+    </p>
+    <p class="text-gray-400">
+     Email: thebutterfactorybd@gmail.com | Phone: 01869701506
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
